@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <!-- 引入网站图标 -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- 初始化css样式 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入注册css样式 -->
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<div class="w">
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+        </div>
+    </div>
+
+    <div class="registerarea">
+        <h3>
+            注册新用户
+            <div class="login">我有帐号，去 <span><a href="login.html" class="style_red">登录</a></span></div>
+        </h3>
+        <div class="reg_from">
+            <form action="#"}>
+                <ul>
+                    <li>
+                        <label for="tel">手机号</label>
+                        <input type="text" name="" id="tel" class="inp">
+                        <span class="error"><i class="error_icon"></i>手机号输入错误，请重新输入</span>
+                    </li>
+                    <li>
+                        <label for="msm">短信验证码</label>
+                        <input type="text" name="" id="msm" class="inp">
+                        <!-- <span class="error"></span>-->
+                    </li>
+                    <li>
+                        <label for="pwd">登录密码</label>
+                        <input type="password" name="" id="pwd" class="inp">
+                        <span class="error"><i class="error_icon"></i>你这密码输的有问题啊，重新输入吧</span>
+                    </li>
+                    <li class="safe">
+                        安全程度
+                        <em class="ruo">弱 </em>
+                        &nbsp<em class="zhong">中 </em>
+                        &nbsp<em class="qiang">强 </em>
+                    </li>
+                    <li>
+                        <label for="success_pwd">确认登录密码</label>
+                        <input type="password" name="" id="success_pwd" class="inp">
+                        <span class="success"><i class="success_icon"></i>密码输的没毛病</span>
+                    </li>
+                    <li class="agree"><input type="checkbox" name="" id=""> 同意协议并注册 <a href="#">《知晓用户协议》</a></li>
+                    <li>
+                        <input type="submit" name="submit" id="submit" value="完成注册" class="btn">
+                    </li>
+                </ul>
+            </form>
+
+        </div>
+    </div>
+    <!-- footer 底部模块制作 -->
+    <div class="copy_right">
+        <div class="link">
+            <a href="#">关于我们</a> | <a href="#">联系我们</a> | <a href="#">联系客服</a> | <a href="#">商家入住</a> |
+            <a href="#">营销中心</a> | <a href="#">手机品优购</a> | <a href="#">友情链接</a> | <a href="#">销售联盟</a> |
+            <a href="#">品优购社区</a> | <a href="#">品优购公益</a> | <a href="#">English Site</a> |
+            <a href="#">Contact U</a>
+        </div>
+        <div class="copyright">
+            地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn <br>
+            京ICP备08001421号京公网安备110108007702
+        </div>
+</div>
+
+</body>
+</html>

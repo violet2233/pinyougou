@@ -1,0 +1,117 @@
+.sk{
+    position: absolute;
+    top: 43px;
+    left: 185px;
+    height: 32px;
+    padding: 5px 0 0 15px;
+    border-left: 1px solid #B1191A;
+}
+
+.sk_list{
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+    margin: 10px 30px;
+}
+
+.sk_list ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+.sk_list li a:hover {
+    color: #c81523;
+}
+
+.sk_con{
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+    margin: 0 20px;
+    line-height: 45px;
+}
+.sk_con ul li a{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*  列表页内容区域*/
+.sk_bd ul{
+    width: 1270px;
+    overflow: hidden
+
+}
+.sk_bd ul li {
+    width: 292px;
+    height: 500px;
+    float: left;
+    border: 2px solid #fff;
+    margin: 0 0 15px 10px;
+}
+
+.sk_bd ul li:hover{
+    border: 2px solid #c81523;
+}
+.sk_bd ul li:nth-child(4n){
+
+}
+.sk_bd .title {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.sk_bd span {
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 20px;
+    color: #c81523;
+}
+.sk_bd del {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.stock .stock_date{
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+}
+.bar{
+    width: 150px;
+    height: 15px;
+    border: 1px solid red;
+    border-radius: 7px;
+    padding: 1px;
+    display: inline-block;
+}
+.bar_in{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    border-radius: 7px;
+    transition: all .7s;
+}
+.bar:hover .bar_in{
+    width: 90%;
+}
+
+.sk_bd button {
+    width: 290px;
+    height: 50px;
+    background-color: #B1191A;
+
+    font-size: 16px;
+    margin-top: 10px;
+}
+.sk_bd button a{
+    color: #fff;
+}
+
+.sk_bd button a:hover {
+    color: red;
+}

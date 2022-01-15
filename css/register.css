@@ -1,0 +1,139 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.logo{
+    padding-top: 15px;
+}
+
+.registerarea{
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.registerarea h3{
+    height: 43px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 43px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.registerarea h3 a {
+    color: #c81623;
+}
+.registerarea .login{
+    float: right;
+    font-size: 14px;
+}
+
+.reg_from{
+    width: 600px;
+    margin: 50px auto 0;
+}
+.reg_from ul li{
+    margin-bottom: 20px;
+}
+.reg_from ul li label{
+    display: inline-block;
+    width: 88px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.reg_from ul li .inp{
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.error{
+    color: #b1191a;
+}
+
+.success{
+    color: green;
+}
+.error_icon,
+.success_icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("/img/error.png") no-repeat;
+    vertical-align: middle;
+}
+
+.success_icon{
+    background: url("/img/success.png") no-repeat;
+}
+.safe{
+    height: 18px;
+    line-height: 18px;
+    padding-left: 155px;
+    
+}
+
+.safe em{
+    padding: 0 12px;
+    color: #fffdef;
+}
+
+.ruo{
+    background-color: #DE1111;
+}
+
+.zhong{
+    background-color: #40B83F;
+}
+
+.qiang{
+    background-color: #F79100;
+}
+
+.agree{
+    padding-left: 95px;
+}
+
+.agree input{
+    vertical-align: middle;
+}
+
+.agree a{
+    color: #69BEED;
+}
+
+.btn{
+    width: 200px;
+    height: 34px;
+    color: #fff;
+    background-color: #b1191a;
+    font-size: 14px;
+    margin: 30px 0 0 100px;
+    cursor: pointer;
+}
+
+/* footer 底部模块 */
+.copy_right{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.link{
+    margin-bottom: 15px;
+}
+
+.link a{
+    padding: 0 3px;
+}
+.copyright{
+    line-height: 20px;
+}

@@ -1,0 +1,168 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.style_red {
+    color: #c81623;
+}
+.style_blue{
+    color: #0673B1;
+}
+/* 头部部分 */
+.header{
+    height: 65px;
+    margin-top: 15px;
+}
+
+.header h1 a{
+    display: block;
+    width: 175px;
+    height: 60px;
+    background: url(/img/logo.png) no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+/* 中间登录部分 */
+.login_con{
+    position: relative;
+    margin-top: 10px;
+    height: 485px;
+    background: url(/img/login/bg-img.png) repeat;
+}
+
+.login_cen{
+    position: relative;
+    height: 485px;
+    margin: 0 auto;
+}
+
+.login_from{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    margin-top: 30px;
+    width: 380px;
+    height: 365px;
+    background-color: #fff;
+}
+.login_table{
+    width: 380px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+}
+.login_table_l,
+.login_table_r{
+    width: 190px;
+    float: left;
+
+}
+
+.login_table_r{
+    float: right;
+    border-left: 1px solid #ccc;
+}
+
+.reminder_text{
+    width: 302px;
+    height: 25px;
+    line-height: 25px;
+    margin: 30px auto 0;
+    padding: 0 75px 0 10px;
+    background-color: #FFFDED;
+}
+
+
+.login_list{
+    margin-top: 10px;
+}
+.login_list ul li{
+    width: 302px;
+    height: 35px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
+
+.login_list ul li label {
+    display: inline-block;
+    width: 36px;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+    background: url("/img/login/user.png") no-repeat;
+
+}
+.login_list ul li input{
+    width: 260px;
+    height: 30px;
+}
+
+.login_list .pwd{
+    background: url("/img/login/lock_icon.png") no-repeat;
+}
+
+.autologin_forget{
+    width: 302px;
+    height: 25px;
+
+    margin: 0 auto;
+
+}
+
+.autologin{
+    display: inline-block;
+    float: left;
+    line-height: 25px;
+    color: darkgray;
+    vertical-align: middle;
+}
+
+.forget{
+    float: right;
+    color: black;
+}
+.login_btn{
+    margin: 5px 40px;
+}
+
+.login_btn button {
+    width: 302px;
+    height: 40px;
+    color: #fff;
+    background-color: #CA1119;
+}
+.bot-img{
+    margin-top: 20px;
+}
+.bot-img ul li{
+    float: left;
+    margin-left: 20px;
+}
+
+.bot-img h5{
+    float: right;
+    font-weight: 400;
+    padding: 5px 50px;
+}
+
+/* footer部分*/
+.copy_right{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.link{
+    margin-bottom: 15px;
+}
+
+
+.link a{
+    padding: 0 3px;
+}
+.copyright{
+    line-height: 20px;
+}
